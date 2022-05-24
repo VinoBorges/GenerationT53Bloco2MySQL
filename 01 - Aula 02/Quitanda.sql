@@ -1,4 +1,4 @@
-/*criando banco de dados */
+/*criando banco de dados*/
 create database db_quitanda;
 
 /*usar o banco de dados*/
