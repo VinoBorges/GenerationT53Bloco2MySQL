@@ -60,6 +60,13 @@ select * from tb_personagens where personagemDefesa between 1000 and 2000;
 
 select * from tb_personagens where personagemNome like "%c%";
 
-select * from tb_personagens inner join tb_classes on tb_personagens.classe_id = tb_classes.id;
+select * from tb_personagens inner join tb_classes 
+on tb_personagens.classe_id = tb_classes.id;
 
-select * from tb_personagens inner join tb_classes on tb_personagens.classe_id = tb_classes.id where classesDescricao = "Arqueiro"; 
+select * from tb_personagens inner join tb_classes 
+on tb_personagens.classe_id = tb_classes.id where classesDescricao = "Arqueiro"; 
+
+select * from tb_personagens inner join tb_classes 
+on tb_personagens.classe_id = tb_classes.id where tb_classes.classesDescricao = "Arqueiro";
+
+
